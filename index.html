@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0d3b40">
+ <meta name="description" content="MedAtlas: مكتبة محاضرات طبية عربية تفاعلية قابلة للنمو — محاضرات سريرية، خوارزميات، وبطاقات وحالات تعليمية.">
+ <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="assets/site.css"><script src="assets/site.js" defer></script>
+ <title>MedAtlas — أطلس المحاضرات الطبية</title>
+</head>
+<body>
+<a href="#library" class="skip-link">الانتقال إلى المكتبة</a>
+<header class="topbar" id="top">
+ <div class="layout top-content">
+  <a class="brand" href="./index.html" aria-label="MedAtlas الرئيسية"><span class="brand-mark"><svg viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="M18 4v28M4 18h28" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><path d="M7 7l22 22" stroke="currentColor" stroke-width="2" opacity=".5"/></svg></span><span class="brand-type">MedAtlas <small>أطلس المحاضرات الطبية</small></span></a>
+  <nav class="main-nav" aria-label="التنقل الرئيسي"><a href="#library">المحاضرات</a><a href="#vision">عن المنصة</a><a href="#publish">إضافة محاضرة</a></nav>
+  <button id="themeToggle" class="theme-toggle" type="button" aria-label="تغيير المظهر">☾ <span>المظهر</span></button>
+ </div>
+</header>
+<main>
+ <section class="hero" aria-labelledby="heroTitle">
+  <div class="layout hero-grid">
+   <div class="hero-copy"><div class="eyebrow"><span class="spark"></span> MEDICAL EDUCATION · EVIDENCE-FIRST</div>
+     <h1 id="heroTitle">معرفة طبية عميقة.<br><em>في مساحة واحدة.</em></h1>
+     <p class="hero-description">منصة عربية للمحاضرات الطبية المتقدمة؛ محتوى منظم، خوارزميات سريرية واضحة، وأسئلة تعزز التفكير التشخيصي. تبدأ بمحاضرة واحدة وتتوسع مع كل إضافة.</p>
+     <div class="hero-actions"><a class="btn primary" href="#library">استكشف المحاضرات <span aria-hidden="true">↗</span></a><a class="btn ghost" href="#vision">اكتشف الرؤية</a></div>
+     <div class="hero-stats"><div><strong id="statLectures">1</strong><span>محاضرة في المكتبة</span></div><div><strong>30</strong><span>تشخيصاً في أول محاضرة</span></div><div><strong>04</strong><span>خوارزميات رئيسية</span></div></div>
+   </div>
+   <div class="hero-art" aria-hidden="true"><div class="art-orbit orbit1"></div><div class="art-orbit orbit2"></div><div class="art-grid"></div><div class="art-focus"><span class="small">CLINICAL KNOWLEDGE</span><strong>ATLAS / 01</strong><span>LEARN · REASON · REVISE</span></div><div class="floating-label label-one">DIAGNOSIS <span>→</span></div><div class="floating-label label-two">ALGORITHMS <span>↗</span></div></div>
+  </div>
+ </section>
+ <section id="library" class="library section"><div class="layout">
+  <div class="section-head"><div><div class="kicker">THE LIBRARY / المكتبة</div><h2>محاضراتنا</h2><p>اختر الموضوع وتعمّق في مساراته التشخيصية والعلاجية.</p></div><span class="count-tag" id="countTag">محاضرة واحدة</span></div>
+  <div class="filterbar"><label class="search-wrap"><span aria-hidden="true">⌕</span><span class="sr-only">البحث في المحاضرات</span><input id="lectureSearch" type="search" placeholder="ابحث عن محاضرة، تخصص، أو مصطلح..." autocomplete="off"></label><div id="categoryFilters" class="chips" role="group" aria-label="تصفية التخصصات"></div></div>
+  <div class="lecture-grid" id="lectureGrid" aria-live="polite"><p class="loading">جارٍ تحميل قائمة المحاضرات…</p></div>
+  <div class="next-chapter"><span class="next-icon">＋</span><div><h3>هذه مجرد البداية</h3><p>يمكن إضافة محاضرات جديدة إلى المنصة لاحقاً باستخدام نفس البنية، دون تغيير الموقع الأساسي.</p></div><a href="#publish">كيف نضيف محاضرة؟ <span>←</span></a></div>
+ </div></section>
+ <section id="vision" class="vision section"><div class="layout"><div class="kicker">WHY MEDATLAS / الرؤية</div><h2>من ملف محاضرة إلى مرجع تعليمي متجدد</h2><div class="vision-grid"><article><span class="feature-icon">01</span><h3>بنية قابلة للتوسّع</h3><p>كل محاضرة مستقلة بمحتواها وتفاعلاتها، وتتصل بالمكتبة عبر فهرس موحّد.</p></article><article><span class="feature-icon">02</span><h3>تعلم سريري فعّال</h3><p>تدعم المحاضرات الخوارزميات والحالات والبطاقات التعليمية متى توفرت لها المادة.</p></article><article><span class="feature-icon">03</span><h3>شفافية المراجعة</h3><p>توثيق حالة المراجعة العلمية لكل محاضرة، والفصل بين المحتوى التعليمي والتوصيات السريرية المعتمدة.</p></article></div></div></section>
+ <section id="publish" class="publish section"><div class="layout publish-grid"><div><div class="kicker">ADD A LECTURE / التوسّع</div><h2>محاضرات جديدة،<br>دون إعادة بناء المنصة.</h2><p>أضف مجلداً داخل <code>lectures/</code>، ثم سجّل المحاضرة في <code>data/lectures.json</code>. ستظهر بطاقة المحاضرة تلقائياً في الفهرس بعد نشر التغييرات على GitHub Pages.</p><a class="text-link" href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site" target="_blank" rel="noopener noreferrer">تعليمات GitHub Pages الرسمية ↗</a></div><div class="code-window"><div class="code-head"><span></span><span></span><span></span><small>Repository structure</small></div><pre dir="ltr">medical-atlas/
+├── index.html
+├── assets/
+├── data/
+│   └── lectures.json
+└── lectures/
+    ├── ruq-pain/
+    │   └── index.html
+    └── new-lecture/
+        └── index.html</pre></div></div></section>
+</main>
+<footer class="site-footer"><div class="layout footer-grid"><div><strong>MedAtlas</strong><p>بناء معرفي يتطور، محاضرة بعد أخرى.</p></div><p>المحتوى مخصّص للتعليم الطبي، ولا يُستخدم بديلاً عن تقييم المرضى أو الإرشادات السريرية المعتمدة.</p><a href="#top">العودة إلى الأعلى ↑</a></div></footer>
+</body></html>
